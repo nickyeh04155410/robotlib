@@ -86,7 +86,7 @@ import numpy as np
 
 rob = robotlib.initialize()
 print(dir(rob))  # 列出所有可用函數
-robot_path = r'path\ur10e_HandGuide.urdf'  # Note: The URDF file should not include visualization elements like STL mesh files.
+robot_path = r'path\ur10e_HandGuide.urdf'  # Note: The URDF file should not include visualization elements.
 robot = rob.import_robot(robot_path)
 print(robot)
 
